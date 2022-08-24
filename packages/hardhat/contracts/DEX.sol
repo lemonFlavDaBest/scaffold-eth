@@ -85,7 +85,6 @@ contract DEX {
     function getLiquidity(address lp) public view returns (uint256) {
         return liquidity[lp];
     }
-    function getLiquidity(address lp) public view returns (uint256) {}
 
 
     /**
