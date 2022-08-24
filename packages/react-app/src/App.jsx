@@ -156,7 +156,7 @@ function App(props) {
   const liquidity = useContractReader(readContracts, "DEX", "getLiquidity", [address]);
 
   // If you want to make 🔐 write transactions to your contracts, use the userSigner:
-  const writeContracts = useContractLoader(userSigner, contractConfig, localChainId);
+  const writeContracts = (userSigner, contractConfig, localChainId);
 
   // EXTERNAL CONTRACT EXAMPLE:
   //
